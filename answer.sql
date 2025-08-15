@@ -1,5 +1,8 @@
 -- Question 1
-CREATE DATABASE salesDB;
+CREATE DATABASE SalesDB;
 
 -- Question 2
 DROP DATABASE demo;
+
+
+
