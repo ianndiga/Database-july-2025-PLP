@@ -1,12 +1,12 @@
 -- Week 1
 -- CREATE DATABASE hospital_db;
-CREATE sales_db_db;
+CREATE salesdb_db;
 
 -- Question 2
 DROP DATABASE demo;
 
 -- Week  2
-USE sales_db;
+USE salesdb;
 
 -- Question 1
 SELECT checkNumber, paymentDate, amount
@@ -33,3 +33,23 @@ SELECT productName, quantityInStock
 FROM products
 ORDER BY buyPrice ASC
 LIMIT 5;
+
+-- Week 3
+-- Question 1
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    fullName VARCHAR(100),
+    age INT
+);
+
+-- Question 2
+INSERT INTO student (id, fullName, age)
+VALUES 
+    (1, 'John Doe', 18),
+    (2, 'Mary Jane', 19),
+    (3, 'Kevin Smith', 21);
+
+-- Question 3
+UPDATE student
+SET age = 20
+WHERE id = 2;
