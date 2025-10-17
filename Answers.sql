@@ -1,6 +1,11 @@
+-- Week 1
 -- CREATE DATABASE hospital_db;
 CREATE sales_db_db;
 
+-- Question 2
+DROP DATABASE demo;
+
+-- Week  2
 USE sales_db;
 
 -- Question 1
